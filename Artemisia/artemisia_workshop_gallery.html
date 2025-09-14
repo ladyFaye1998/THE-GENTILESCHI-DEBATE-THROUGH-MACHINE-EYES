@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- favicon: injected -->
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="shortcut icon" href="../assets/favicon.svg">
+<!-- /favicon -->
+
+
+
+
+
+
+
+
+    <meta charset="utf-8">
+    <title>Artemisia Gentileschi · Workshop Works · Catalogue Raisonné</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #f7f5f2; 
+            color: #2c1810; 
+            font-family: 'Crimson Text', Georgia, serif; 
+            line-height: 1.6;
+        }
+        h1, h2, h3 { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+        article:hover { 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+<!-- global+section-nav: injected -->
+
+<style>
+/* Old-money palette */
+:root {
+  --ivory:#f6f1e9; --parch:#fbf9f5; --ink:#2b1e16; --soft:#6b5d54; --line:#d8cfc4;
+  --deep:#423026; --accent:#b08d57; /* antique gold */
+}
+/* Global bar */
+.gnav{position:sticky;top:0;z-index:1000;background:var(--parch);border-bottom:1px solid var(--line)}
+.gnav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;gap:18px}
+.gnav__brand a{font:700 14px "Inter",system-ui,sans-serif;color:var(--ink);text-decoration:none;letter-spacing:.06em}
+.gnav__brand a::first-letter{letter-spacing:.02em}
+.gnav__list{list-style:none;display:flex;gap:18px;margin-left:8px}
+.gnav__item a{display:block;padding:8px 2px;color:var(--ink);text-decoration:none}
+.gnav__item a span{font:600 12px "Inter";text-transform:uppercase;letter-spacing:.11em;opacity:.88}
+.gnav__item a:hover span{opacity:1}
+/* Active = refined gold underline */
+.gnav__item--active a{position:relative}
+.gnav__item--active a::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--accent)}
+.gnav__spacer{flex:1}
+.gnav__right a{display:inline-block;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:600 12px "Inter";text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+.gnav__right a:hover{border-color:var(--accent)}
+@media (max-width:720px){.gnav__list{flex-wrap:wrap}}
+
+/* Section sub-nav */
+.snav{background:var(--ivory);border-bottom:1px solid var(--line)}
+.snav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.snav__label{font:700 12px "Inter";color:var(--soft);letter-spacing:.08em;text-transform:uppercase;margin-right:6px}
+.snav__tab{display:inline-block;padding:6px 8px;border-radius:4px;color:var(--ink);text-decoration:none;border:1px solid transparent}
+.snav__tab:hover{border-color:var(--line);background:#fff}
+.snav__tab--active{border-color:var(--accent);background:#fff}
+.snav__tab--active::after{content:"";display:block;height:2px;background:var(--accent);margin-top:4px}
+.snav__pill{margin-left:6px;font:700 10px "Inter";border:1px solid var(--line);border-radius:5px;padding:2px 6px;background:#fff;color:var(--deep)}
+</style>
+<nav id="global-nav-gentileschi" class="gnav" aria-label="Global">
+  <div class="gnav__wrap">
+    <div class="gnav__brand"><a href="../index.html">Gentileschi Project</a></div>
+    <ul class="gnav__list">
+      <li class="gnav__item"><a href="../index.html"><span>Home</span></a></li>
+      <li class="gnav__item gnav__item--active"><a href="artemisia_dataset_overview.html"><span>Artemisia</span></a></li>
+      <li class="gnav__item"><a href="../Orazio/orazio_dataset_overview.html"><span>Orazio</span></a></li>
+      <li class="gnav__item"><a href="../Gender%20attribution/paintings_by_gender_overview.html"><span>Gender</span></a></li>
+      <li class="gnav__item"><a href="../attribution_analysis_results/attribution_analysis_report.html"><span>ML Report</span></a></li>
+    </ul>
+    <div class="gnav__spacer"></div>
+    <div class="gnav__right"><a href="../attribution_analysis_results/attribution_analysis_report.html">Open Analysis</a></div>
+  </div>
+</nav>
+
+<nav class="snav" aria-label="Section"><div class="snav__wrap">
+<div class="snav__label">Artemisia</div>
+<a class="snav__tab" href="artemisia_dataset_overview.html">Overview</a>
+<a class="snav__tab" href="artemisia_unquestioned_gallery.html">Unquestioned</a>
+<a class="snav__tab" href="artemisia_questioned_gallery.html">Questioned</a>
+<a class="snav__tab snav__tab--active" href="artemisia_workshop_gallery.html">Workshop</a> <span class="snav__pill">Excluded from training</span>
+</div></nav>
+<!-- /global+section-nav -->
+
+
+
+
+
+
+
+
+    <header style="background:#fdfcfb;border-bottom:1px solid #e5dfd6;padding:48px 24px;">
+        <div style="max-width:1400px;margin:0 auto;">
+            <div style="text-align:center;">
+                <div style="font-size:11px;letter-spacing:0.3em;color:#8b7968;margin-bottom:16px;text-transform:uppercase;">Catalogue Raisonné</div>
+                <h1 style="font-size:32px;color:#2c1810;font-weight:300;margin-bottom:8px;letter-spacing:-0.02em;">Artemisia Gentileschi</h1>
+                <div style="font-size:18px;color:#7c2d12;font-weight:400;letter-spacing:0.05em;">Workshop Attributions</div>
+                <div style="font-size:13px;color:#8b7968;margin-top:16px;">Compiled 2025-09-11T11:06:10Z · Based on Bissell (1999) and Recent Scholarship</div>
+            </div>
+        </div>
+    </header>
+    
+    <main style="max-width:1400px;margin:0 auto;padding:24px;">
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">WORKSHOP</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">11</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">11</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1622–1651</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1640</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Bassano Civic Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Burghley House</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Columbus Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Matthiesen Gallery</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Moravian Gallery in Brno</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Palazzo Pitti</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Prussian Palaces and Gardens Foundation Berlin-Brandenburg</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/3f12d4edfc4514708efcb6badf552b41</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/5b6e1ac84449644a9b6154e26731e959</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/7f701549dc4fe68385ce69d1d7b8110d</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:24px;margin-top:48px;">
+            
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_01_Betsabea_al_bagno-1637.jpg" alt="Betsabea al bagno"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Betsabea al bagno</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1637
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q123785856
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Matthiesen Gallery
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Columbus Museum version. Bissell WB 37 notes landscape by Viviano Codazzi, architecture possibly Domenico Gargiulo. Main figures by Artemisia with workshop assistance.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_02_Bathsheba_c_1650-52-1651.jpg" alt="Bathsheba, c. 1650-52"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Bathsheba, c. 1650-52</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1651
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q104905034
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/7f701549dc4fe68385ce69d1d7b8110d
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Late work. Ward Bissell notes possible collaboration with daughter Prudentia. Main composition Artemisia, assistance documented.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_03_Susanna_e_i_vecchioni-1622.jpg" alt="Susanna e i vecchioni"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Susanna e i vecchioni</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q3978272
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Burghley House
+                         / PIC 563
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If 1652 Bologna: documented collaboration with Onofrio Palumbo. Main composition Artemisia, execution shared. Other versions may be fully autograph.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_04_Susanna_e_i_vecchioni-1649.jpg" alt="Susanna e i vecchioni"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Susanna e i vecchioni</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1649
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q3978273
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Moravian Gallery in Brno
+                         / M_246
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If 1652 Bologna: documented collaboration with Onofrio Palumbo. Main composition Artemisia, execution shared. Other versions may be fully autograph.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_05_Bathsheba-1645.jpg" alt="Bathsheba"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Bathsheba</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1645
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q19863040
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Prussian Palaces and Gardens Foundation Berlin-Brandenburg
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Multiple versions with documented workshop assistance. Architectural elements possibly by Viviano Codazzi. Ward Bissell notes possible collaboration with daughter Prudentia.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_06_Betsabea_al_bagno-1640.jpg" alt="Betsabea al bagno"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Betsabea al bagno</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1640
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29015025
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/3f12d4edfc4514708efcb6badf552b41
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Columbus Museum version. Bissell WB 37 notes landscape by Viviano Codazzi, architecture possibly Domenico Gargiulo. Main figures by Artemisia with workshop assistance.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_07_Betsabea_al_bagno-1640.jpg" alt="Betsabea al bagno"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Betsabea al bagno</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1640
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29016299
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/5b6e1ac84449644a9b6154e26731e959
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Columbus Museum version. Bissell WB 37 notes landscape by Viviano Codazzi, architecture possibly Domenico Gargiulo. Main figures by Artemisia with workshop assistance.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_08_Davide_e_Betsabea-1645.jpg" alt="Davide e Betsabea"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Davide e Betsabea</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1645
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29017580
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Palazzo Pitti
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">David and Bathsheba. Multiple versions with documented landscape assistance. Main figures by Artemisia.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_09_Betsabea-1637.jpg" alt="Betsabea"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Betsabea</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1637
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29017592
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Columbus Museum of Art
+                         / 1967.006
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If 1638 version: WB 40. If 1645 versions: documented workshop assistance for settings.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_10_Betsabea_al_bagno-1638.jpg" alt="Betsabea al bagno"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Betsabea al bagno</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1638
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29017671
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/d10796c3d2ca5aede1bd86c4edb003e9
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Columbus Museum version. Bissell WB 37 notes landscape by Viviano Codazzi, architecture possibly Domenico Gargiulo. Main figures by Artemisia with workshop assistance.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_workshop\WRK_11_Susanna_e_i_vecchioni-1650.jpg" alt="Susanna e i vecchioni"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Susanna e i vecchioni</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1650
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29018356
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Bassano Civic Museum
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If 1652 Bologna: documented collaboration with Onofrio Palumbo. Main composition Artemisia, execution shared. Other versions may be fully autograph.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        </div>
+    </main>
+    
+    <footer style="background:#fdfcfb;border-top:1px solid #e5dfd6;margin-top:96px;padding:48px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:12px;color:#8b7968;line-height:1.8;">
+                <div style="margin-bottom:16px;">
+                    <strong>Attribution Sources:</strong> Ward Bissell (1999) · Metropolitan Museum (2001) · National Gallery London (2020) · Museo di Capodimonte (2022-23) · Musée Jacquemart-André (2025)
+                </div>
+                <div style="font-size:11px;color:#a09388;">
+                    Dataset compiled from Wikidata and Wikimedia Commons · ArtemisiaPublicationDataset/1.0
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

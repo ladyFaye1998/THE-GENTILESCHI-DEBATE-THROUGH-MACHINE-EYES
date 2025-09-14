@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Artemisia Gentileschi · Questioned Works · Catalogue Raisonné</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #f7f5f2; 
+            color: #2c1810; 
+            font-family: 'Crimson Text', Georgia, serif; 
+            line-height: 1.6;
+        }
+        h1, h2, h3 { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+        article:hover { 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header style="background:#fdfcfb;border-bottom:1px solid #e5dfd6;padding:48px 24px;">
+        <div style="max-width:1400px;margin:0 auto;">
+            <div style="text-align:center;">
+                <div style="font-size:11px;letter-spacing:0.3em;color:#8b7968;margin-bottom:16px;text-transform:uppercase;">Catalogue Raisonné</div>
+                <h1 style="font-size:32px;color:#2c1810;font-weight:300;margin-bottom:8px;letter-spacing:-0.02em;">Artemisia Gentileschi</h1>
+                <div style="font-size:18px;color:#7c2d12;font-weight:400;letter-spacing:0.05em;">Questioned Attributions</div>
+                <div style="font-size:13px;color:#8b7968;margin-top:16px;">Compiled 2025-09-11T11:06:10Z · Based on Bissell (1999) and Recent Scholarship</div>
+            </div>
+        </div>
+    </header>
+    
+    <main style="max-width:1400px;margin:0 auto;padding:24px;">
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">QUESTIONED</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">35</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">35</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1609–1650</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1630</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Cavallini Sgarbi Foundation</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Galleria Nazionale d&#x27;Arte Antica</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Galleria Spada</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>John and Mable Ringling Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo Soumaya</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museum of Fine Arts, Budapest</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Musée de Tessé</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Musée des Beaux-Arts de Quimper</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>National Gallery of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>New Palace</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:24px;margin-top:48px;">
+            
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_02_Judith_portant_la_tête_dHolopherne-1635.jpg" alt="Judith portant la tête d&#x27;Holopherne"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Judith portant la tête d&#x27;Holopherne</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1635
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q112860995
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Musée des Beaux-Arts de Quimper
+                         / 873-1-270
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Judith carrying head. Not specific enough to identify with Bissell entries. Possibly fragment or misattributed.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_03_Santa_Cecilia-1620.jpg" alt="Santa Cecilia"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Santa Cecilia</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q123785710
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/1389383f229556875c5f137ae5042e52
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If Galleria Spada: Bissell WB X-28, &#x27;Incorrect and Questionable Attributions&#x27;. Technical analysis ongoing 2024.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_04_Abbraccio_tra_la_Giustizia_e_la_Pace-1635.jpg" alt="Abbraccio tra la Giustizia e la Pace"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Abbraccio tra la Giustizia e la Pace</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1635
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q123785743
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/fd31814e9ed53827d1187e3999c066ed
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Allegory of Justice and Peace. Not in Bissell 1999. Subject unusual for Artemisia. No documented versions.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_05_Allegoria_della_Retorica-1650.jpg" alt="Allegoria della Retorica"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Allegoria della Retorica</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1650
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q123785848
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> —
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Allegory of Rhetoric. Not in Bissell 1999. No known secure versions. Possibly from series misattributed to Artemisia.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_06_La_Vergine_allatta_il_Bambino-1617.jpg" alt="La Vergine allatta il Bambino"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">La Vergine allatta il Bambino</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1617
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q123785895
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/54c6facaa0eff8136bb3474e8622113f
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not in Bissell 1999 main catalogue. Subject (nursing Virgin) extremely rare for Artemisia. No secure documentation. Possibly misattributed from circle.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_07_Ulisse_scopre_Achille_alla_corte_del_re_Licomede-1640.jpg" alt="Ulisse scopre Achille alla corte del re Licomede"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Ulisse scopre Achille alla corte del re Licomede</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1640
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q123821733
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/9bba27cf4dc5c24187e39c8ae99015a6
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not in Bissell 1999. Subject (Ulysses discovering Achilles) not documented for Artemisia. No known versions with secure attribution.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_08_Vierge_de_lAnnonciation-1609.jpg" alt="Vierge de l&#x27;Annonciation"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Vierge de l&#x27;Annonciation</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1609
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q133512961
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/8fc9b2a66dde87ce286c179307f01b48
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not in Bissell 1999. No known secure Annunciation by Artemisia in French collections. Possibly confused with 1630 Naples Annunciation (WB 24).</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_09_Tête_dhéroïne-1620.jpg" alt="Tête d&#x27;héroïne"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Tête d&#x27;héroïne</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q133734437
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/1cb4abfd9206d3c0fba33eb98fd05601
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Generic title &#x27;Head of heroine&#x27;. Not in Bissell 1999. No specific work identifiable. Possibly fragment or misattributed study.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="https://creativecommons.org/licenses/by/4.0" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">CC BY 4.0</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_10_Portrait_dun_chevalier_de_lordre_de_Saint-Étienne-1619.jpg" alt="Portrait d&#x27;un chevalier de l&#x27;ordre de Saint-Étienne"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Portrait d&#x27;un chevalier de l&#x27;ordre de Saint-Étienne</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1619
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q133734449
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/dff0ca0b8ccb914f853f04cc3943bb7c
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not in Bissell 1999. Male portraiture extremely rare for Artemisia. Order of St. Stephen connection undocumented.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_11_Amour_endormi-1620.jpg" alt="Amour endormi"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Amour endormi</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q133790968
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/0adf40f7f59e07d3cfce0c03f896133d
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Sleeping Cupid. Not in Bissell 1999. Subject atypical for Artemisia. No documented versions.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_12_Saint_Jean-Baptiste_dans_le_désert-1630.jpg" alt="Saint Jean-Baptiste dans le désert"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Saint Jean-Baptiste dans le désert</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1630
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q133793367
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/5cc6c6e2665af60084bbe5f24f06dbfd
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">St. John Baptist in desert. Not in Bissell 1999 main catalogue. Subject rare, no secure attributions known.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_13_Allegoria_dellAstronomia-1640.jpg" alt="Allegoria dell&#x27;Astronomia"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Allegoria dell&#x27;Astronomia</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1640
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q105255267
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/ab11f43b536914a8d3ed69c8309bd954
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Allegory of Astronomy. Not in Bissell 1999. Part of disputed allegorical series. Attribution lacks documentation.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_14_LAllegoria_della_Fama-1630.jpg" alt="L&#x27;Allegoria della Fama"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">L&#x27;Allegoria della Fama</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1630
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q105288627
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/ba075bc7744fb9a73c24a0b47c3f70ac
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Allegory of Fame. Not in Bissell 1999 main catalogue. If Clio/Muse of History: WB 27, otherwise undocumented.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_15_La_donna_che_suona_il_liuto-1628.jpg" alt="La donna che suona il liuto"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">La donna che suona il liuto</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1628
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q105289804
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/63246cd9d52c8d6c63f836515ef907c1
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Woman playing lute. Not in Bissell 1999. Generic title, no specific work identifiable. Possibly confused with self-portraits.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_16_Saint_Sebastian_tended_by_Saint_Irene-1630.jpg" alt="Saint Sebastian tended by Saint Irene"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Saint Sebastian tended by Saint Irene</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1630
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q61042222
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/54de80558fa136b3277420ef2c3c6485
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not in Bissell 1999. Subject never securely documented for Artemisia. Male nude uncommon in her oeuvre.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_17_Saint_Cecilia-1640.jpg" alt="Saint Cecilia"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Saint Cecilia</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1640
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q79402323
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> John and Mable Ringling Museum of Art
+                         / SN134
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">&#x27;Saint Cecilia&#x27; not found in research database. Not in Bissell 1999 main catalogue. Attribution requires further investigation.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_18_Ritratto_di_dama_con_ventaglio-1620.jpg" alt="Ritratto di dama con ventaglio"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Ritratto di dama con ventaglio</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q91095575
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Sovereign Military Order of Malta
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Lady with fan. Not in Bissell 1999. Portraiture rare in secure oeuvre. No documentation.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_19_Ritratto_di_gentiluomo_Antoine_de_Ville-1626.jpg" alt="Ritratto di gentiluomo (Antoine de Ville?)"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Ritratto di gentiluomo (Antoine de Ville?)</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1626
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q104865153
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/b1167bf61b9c7ae0be411b32a254ba9f
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Portrait of gentleman. Not in Bissell 1999. Male portraiture essentially undocumented for Artemisia. Attribution doubtful.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_20_Santa_Lucía-1637.jpg" alt="Santa Lucía"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Santa Lucía</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1637
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q104865509
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/c3e7291fd2486012bea67fd79effdbfd
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Saint Lucy. Not in Bissell 1999 main catalogue. Recent attributions by Nicola Spinosa contested by other scholars.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_21_Ritratto_di_una_donna_seduta_signora_Caterina_Savelli-1625.jpg" alt="Ritratto di una donna seduta (signora Caterina Savelli?)"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Ritratto di una donna seduta (signora Caterina Savelli?)</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1625
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q104865823
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/6d7513e08f6b1f322a4ba9c865f866ee
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Seated woman portrait. Not in Bissell 1999. Female portraiture rare beyond self-portraits. Documentation lacking.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_22_Cleopatra-1620.jpg" alt="Cleopatra"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Cleopatra</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q3680519
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Cavallini Sgarbi Foundation
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If 1611-12 version: Bissell WB X-6, listed in &#x27;Incorrect and Questionable Attributions&#x27;. Disputed between Orazio and Artemisia. Later versions may be secure.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_23_Danaë-1612.jpg" alt="Danaë"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Danaë</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q3701418
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Saint Louis Art Museum
+                         / 93:1986
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">1612, Saint Louis Art Museum. Bissell WB X-7, &#x27;Incorrect and Questionable&#x27;. Despite museum ownership, attribution disputed in recent scholarship.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_24_Santa_Cecilia_come_un_suonatrice_di_liuto-1620.jpg" alt="Santa Cecilia come un suonatrice di liuto"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Santa Cecilia come un suonatrice di liuto</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q3948947
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Galleria Spada
+                         / 149
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">St. Cecilia as lute player. Not in Bissell 1999 main catalogue. Variant of questioned WB X-28.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_25_The_Triumph_of_Galatea-1650.jpg" alt="The Triumph of Galatea"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Triumph of Galatea</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1650
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q20177361
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Gallery of Art
+                         / 2000.61.1
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Attribution disputed. National Gallery of Art attributes to Bernardo Cavallino alone. 2022 Naples exhibition disagreed. Unresolved.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <a href="https://www.nga.gov/api/v1/iiif/presentation/manifest.json?cultObj:id=112373" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">IIIF Manifest ↗</a>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_26_Santa_Lucía-1642.jpg" alt="Santa Lucía"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Santa Lucía</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1642
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q27862974
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo Soumaya
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Saint Lucy. Not in Bissell 1999 main catalogue. Recent attributions by Nicola Spinosa contested by other scholars.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_27_Minerva_Sapienza-1635.jpg" alt="Minerva (Sapienza)"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Minerva (Sapienza)</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1635
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29016638
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Uffizi Gallery
+                         / 00454150
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Minerva/Wisdom. Not in Bissell 1999. Part of questionable allegorical series. No secure documentation.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_28_Il_ratto_di_Lucrezia-1626.jpg" alt="Il ratto di Lucrezia"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Il ratto di Lucrezia</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1626
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29016880
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> New Palace
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Rape of Lucretia. Not in Bissell 1999. Subject (violent scene) atypical. No secure versions known.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_29_Allegoria_della_Pittura-1640.jpg" alt="Allegoria della Pittura"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Allegoria della Pittura</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1640
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29017022
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Musée de Tessé
+                         / 10.69
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If Palazzo Barberini: disputed. Christiansen &amp; Mann 2001 assign to Simon Vouet workshop. Jesse Locker disagrees.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_30_Cleopatra-1635.jpg" alt="Cleopatra"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Cleopatra</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1635
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29018413
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/a8ff9e6de4673eb61133466a77fa3c3e
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If 1611-12 version: Bissell WB X-6, listed in &#x27;Incorrect and Questionable Attributions&#x27;. Disputed between Orazio and Artemisia. Later versions may be secure.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_31_Ritratto_di_una_monaca-1618.jpg" alt="Ritratto di una monaca"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Ritratto di una monaca</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1618
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29019536
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/9a4d20f21a898d43c113c384e08ddd12
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Portrait of nun. If 1613-18 private collection: MET Figure 114. Attribution debated, not in Bissell main catalogue.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_32_Allegory_of_painting_oval-1630.jpg" alt="Allegory of painting (oval)"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Allegory of painting (oval)</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1630
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29023441
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/db898b1e82ee6088a5dacf400c87852b
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Oval format unusual. Not in Bissell 1999 main catalogue. Possibly workshop or follower.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_34_Salomè_con_la_testa_di_San_Giovanni_Battista-1615.jpg" alt="Salomè con la testa di San Giovanni Battista"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Salomè con la testa di San Giovanni Battista</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1615
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29023889
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museum of Fine Arts, Budapest
+                         / 70.8
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Salome with Baptist&#x27;s head. Not in Bissell 1999. Budapest version tentatively attributed. Documentation weak.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_35_Medea-1620.jpg" alt="Medea"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Medea</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29352307
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/a04c09402029ba10ab7c8b502b947156
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not in Bissell 1999. Subject (Medea) never securely documented for Artemisia. Attribution doubtful.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="https://creativecommons.org/licenses/by-sa/4.0" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">CC BY-SA 4.0</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_36_Cristo_e_la_samaritana_al_pozzo-1637.jpg" alt="Cristo e la samaritana al pozzo"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Cristo e la samaritana al pozzo</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1637
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29352367
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/6be3f119fd832a6a27643739a6530bab
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Christ and Samaritan woman. Not in Bissell 1999. Religious narrative scene atypical. No secure documentation.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="artemisia_questioned\QUE_37_Autoritratto_Allegoria_della_Pittura-1630.jpg" alt="Autoritratto (Allegoria della Pittura)"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Autoritratto (Allegoria della Pittura)</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1630
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q30606473
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Galleria Nazionale d&#x27;Arte Antica
+                         / 1952
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">If different from Royal Collection version: attribution uncertain. Possibly workshop copy of WB 42.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#a09388;">No IIIF manifest</span>
+                            <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">Public domain</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        </div>
+    </main>
+    
+    <footer style="background:#fdfcfb;border-top:1px solid #e5dfd6;margin-top:96px;padding:48px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:12px;color:#8b7968;line-height:1.8;">
+                <div style="margin-bottom:16px;">
+                    <strong>Attribution Sources:</strong> Ward Bissell (1999) · Metropolitan Museum (2001) · National Gallery London (2020) · Museo di Capodimonte (2022-23) · Musée Jacquemart-André (2025)
+                </div>
+                <div style="font-size:11px;color:#a09388;">
+                    Dataset compiled from Wikidata and Wikimedia Commons · ArtemisiaPublicationDataset/1.0
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

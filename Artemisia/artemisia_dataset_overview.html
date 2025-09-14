@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- favicon: injected -->
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="shortcut icon" href="../assets/favicon.svg">
+<!-- /favicon -->
+
+
+
+
+
+
+
+
+    <meta charset="utf-8">
+    <title>Artemisia Gentileschi · Complete Catalogue Overview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #f7f5f2; 
+            color: #2c1810; 
+            font-family: 'Crimson Text', Georgia, serif; 
+            line-height: 1.6;
+        }
+        h1, h2, h3 { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    </style>
+</head>
+<body>
+<!-- global+section-nav: injected -->
+
+<style>
+/* Old-money palette */
+:root {
+  --ivory:#f6f1e9; --parch:#fbf9f5; --ink:#2b1e16; --soft:#6b5d54; --line:#d8cfc4;
+  --deep:#423026; --accent:#b08d57; /* antique gold */
+}
+/* Global bar */
+.gnav{position:sticky;top:0;z-index:1000;background:var(--parch);border-bottom:1px solid var(--line)}
+.gnav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;gap:18px}
+.gnav__brand a{font:700 14px "Inter",system-ui,sans-serif;color:var(--ink);text-decoration:none;letter-spacing:.06em}
+.gnav__brand a::first-letter{letter-spacing:.02em}
+.gnav__list{list-style:none;display:flex;gap:18px;margin-left:8px}
+.gnav__item a{display:block;padding:8px 2px;color:var(--ink);text-decoration:none}
+.gnav__item a span{font:600 12px "Inter";text-transform:uppercase;letter-spacing:.11em;opacity:.88}
+.gnav__item a:hover span{opacity:1}
+/* Active = refined gold underline */
+.gnav__item--active a{position:relative}
+.gnav__item--active a::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--accent)}
+.gnav__spacer{flex:1}
+.gnav__right a{display:inline-block;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:600 12px "Inter";text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+.gnav__right a:hover{border-color:var(--accent)}
+@media (max-width:720px){.gnav__list{flex-wrap:wrap}}
+
+/* Section sub-nav */
+.snav{background:var(--ivory);border-bottom:1px solid var(--line)}
+.snav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.snav__label{font:700 12px "Inter";color:var(--soft);letter-spacing:.08em;text-transform:uppercase;margin-right:6px}
+.snav__tab{display:inline-block;padding:6px 8px;border-radius:4px;color:var(--ink);text-decoration:none;border:1px solid transparent}
+.snav__tab:hover{border-color:var(--line);background:#fff}
+.snav__tab--active{border-color:var(--accent);background:#fff}
+.snav__tab--active::after{content:"";display:block;height:2px;background:var(--accent);margin-top:4px}
+.snav__pill{margin-left:6px;font:700 10px "Inter";border:1px solid var(--line);border-radius:5px;padding:2px 6px;background:#fff;color:var(--deep)}
+</style>
+<nav id="global-nav-gentileschi" class="gnav" aria-label="Global">
+  <div class="gnav__wrap">
+    <div class="gnav__brand"><a href="../index.html">Gentileschi Project</a></div>
+    <ul class="gnav__list">
+      <li class="gnav__item"><a href="../index.html"><span>Home</span></a></li>
+      <li class="gnav__item gnav__item--active"><a href="artemisia_dataset_overview.html"><span>Artemisia</span></a></li>
+      <li class="gnav__item"><a href="../Orazio/orazio_dataset_overview.html"><span>Orazio</span></a></li>
+      <li class="gnav__item"><a href="../Gender%20attribution/paintings_by_gender_overview.html"><span>Gender</span></a></li>
+      <li class="gnav__item"><a href="../attribution_analysis_results/attribution_analysis_report.html"><span>ML Report</span></a></li>
+    </ul>
+    <div class="gnav__spacer"></div>
+    <div class="gnav__right"><a href="../attribution_analysis_results/attribution_analysis_report.html">Open Analysis</a></div>
+  </div>
+</nav>
+
+<nav class="snav" aria-label="Section"><div class="snav__wrap">
+<div class="snav__label">Artemisia</div>
+<a class="snav__tab snav__tab--active" href="artemisia_dataset_overview.html">Overview</a>
+<a class="snav__tab" href="artemisia_unquestioned_gallery.html">Unquestioned</a>
+<a class="snav__tab" href="artemisia_questioned_gallery.html">Questioned</a>
+<a class="snav__tab" href="artemisia_workshop_gallery.html">Workshop</a> <span class="snav__pill">Excluded from training</span>
+</div></nav>
+<!-- /global+section-nav -->
+
+
+
+
+
+
+
+
+    <header style="background:#fdfcfb;border-bottom:1px solid #e5dfd6;padding:64px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:11px;letter-spacing:0.3em;color:#8b7968;margin-bottom:16px;text-transform:uppercase;">Digital Catalogue Raisonné</div>
+            <h1 style="font-size:40px;color:#2c1810;font-weight:300;margin-bottom:16px;letter-spacing:-0.02em;">Artemisia Gentileschi</h1>
+            <div style="font-size:18px;color:#6b5d54;font-weight:400;">Complete Works Overview</div>
+            <div style="font-size:13px;color:#8b7968;margin-top:24px;">Dataset compiled 2025-09-11T11:06:10Z</div>
+        </div>
+    </header>
+    
+    <main style="max-width:1200px;margin:0 auto;padding:48px 24px;">
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Complete Corpus</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">116</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">93</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1608–1652</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1630</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo di Capodimonte</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>5</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>National Museum of Art, Architecture and Design</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>4</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Unknown</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>4</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Galleria Palatina</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>3</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo Soumaya</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>3</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Pozzuoli Cathedral</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>3</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Uffizi Gallery</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>3</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Galleria Spada</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Metropolitan Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museum of Fine Arts, Budapest</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Secure Attributions</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">70</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">52</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1608–1652</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1630</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo di Capodimonte</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>5</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>National Museum of Art, Architecture and Design</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>4</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Galleria Palatina</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>3</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Pozzuoli Cathedral</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>3</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Unknown</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>3</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Metropolitan Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo Soumaya</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Royal Collection</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Schloss Weißenstein</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Uffizi Gallery</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Disputed Works</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">35</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">35</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1609–1650</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1630</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Cavallini Sgarbi Foundation</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Galleria Nazionale d&#x27;Arte Antica</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Galleria Spada</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>John and Mable Ringling Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo Soumaya</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museum of Fine Arts, Budapest</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Musée de Tessé</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Musée des Beaux-Arts de Quimper</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>National Gallery of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>New Palace</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Workshop Collaborations</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">11</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">11</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1622–1651</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1640</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Bassano Civic Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Burghley House</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Columbus Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Matthiesen Gallery</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Moravian Gallery in Brno</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Palazzo Pitti</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Prussian Palaces and Gardens Foundation Berlin-Brandenburg</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/3f12d4edfc4514708efcb6badf552b41</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/5b6e1ac84449644a9b6154e26731e959</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/7f701549dc4fe68385ce69d1d7b8110d</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        
+        <section style="margin-top:64px;padding:32px;background:#fdfcfb;border:1px solid #e5dfd6;">
+            <h2 style="font-size:14px;letter-spacing:0.15em;color:#7c2d12;font-weight:400;margin-bottom:24px;text-transform:uppercase;font-family:'Courier New',monospace;">Methodology & Sources</h2>
+            <div style="font-size:15px;line-height:1.8;color:#6b5d54;">
+                <p style="margin-bottom:16px;">This digital catalogue raisonné represents the current state of scholarship on Artemisia Gentileschi's oeuvre, compiled from authoritative sources and recent technical analyses.</p>
+                
+                <h3 style="font-size:13px;color:#8b7968;margin:24px 0 12px;letter-spacing:0.05em;text-transform:uppercase;">Primary Sources</h3>
+                <ul style="list-style:none;padding-left:0;">
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Ward Bissell (1999): <em>Artemisia Gentileschi and the Authority of Art</em> — 57 secure attributions
+                    </li>
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Metropolitan Museum (2001): <em>Orazio and Artemisia Gentileschi</em> exhibition catalogue
+                    </li>
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Recent exhibitions: National Gallery London (2020), Museo di Capodimonte (2022-23), Musée Jacquemart-André (2025)
+                    </li>
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Technical analyses and discoveries (2020-2025)
+                    </li>
+                </ul>
+                
+                <h3 style="font-size:13px;color:#8b7968;margin:24px 0 12px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Categories</h3>
+                <dl style="margin-left:0;">
+                    <dt style="font-weight:400;color:#2c1810;margin-top:12px;">Secure Attributions</dt>
+                    <dd style="margin-left:20px;font-size:14px;color:#6b5d54;margin-bottom:12px;">Works with undisputed attribution in major catalogues and technical verification</dd>
+                    
+                    <dt style="font-weight:400;color:#2c1810;margin-top:12px;">Disputed Works</dt>
+                    <dd style="margin-left:20px;font-size:14px;color:#6b5d54;margin-bottom:12px;">Paintings with contested or uncertain attribution requiring further investigation</dd>
+                    
+                    <dt style="font-weight:400;color:#2c1810;margin-top:12px;">Workshop Collaborations</dt>
+                    <dd style="margin-left:20px;font-size:14px;color:#6b5d54;margin-bottom:12px;">Documented collaborative works with workshop assistants or other artists</dd>
+                </dl>
+                
+                <div style="margin-top:32px;padding-top:24px;border-top:1px solid #e5dfd6;">
+                    <p style="font-size:13px;color:#8b7968;">
+                        Current scholarly consensus suggests approximately 80 accepted works in Artemisia's oeuvre as of 2025, 
+                        representing a significant expansion from earlier catalogues through recent discoveries and reattributions.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer style="background:#fdfcfb;border-top:1px solid #e5dfd6;margin-top:96px;padding:48px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:11px;color:#a09388;line-height:1.8;">
+                Digital catalogue compiled from Wikidata metadata and Wikimedia Commons resources<br>
+                ArtemisiaPublicationDataset/1.0 · Scholarly use encouraged with appropriate citation
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

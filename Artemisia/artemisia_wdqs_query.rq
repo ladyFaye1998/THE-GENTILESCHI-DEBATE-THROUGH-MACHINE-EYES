@@ -1,0 +1,16 @@
+
+    SELECT ?item ?itemLabel ?itemDescription ?title ?inception ?image ?manifest ?instanceOf
+           ?collection ?collectionLabel ?location ?locationLabel ?invno
+    WHERE {
+      ?item wdt:P170 wd:Q212657 .
+      OPTIONAL { ?item wdt:P1476 ?title. }
+      OPTIONAL { ?item wdt:P571 ?inception. }
+      OPTIONAL { ?item wdt:P18 ?image. }
+      OPTIONAL { ?item wdt:P6108 ?manifest. }
+      OPTIONAL { ?item wdt:P31 ?instanceOf. }
+      OPTIONAL { ?item wdt:P195 ?collection. }
+      OPTIONAL { ?item wdt:P276 ?location. }
+      OPTIONAL { ?item wdt:P217 ?invno. }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en,it,fr,de,es,en". }
+    }
+    

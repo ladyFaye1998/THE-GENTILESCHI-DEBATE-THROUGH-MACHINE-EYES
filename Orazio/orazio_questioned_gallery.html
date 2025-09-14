@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- favicon: injected -->
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="shortcut icon" href="../assets/favicon.svg">
+<!-- /favicon -->
+
+
+
+
+
+
+
+
+    <meta charset="utf-8">
+    <title>Orazio Gentileschi · Questioned Works · Catalogue Raisonné</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #f7f5f2; 
+            color: #2c1810; 
+            font-family: 'Crimson Text', Georgia, serif; 
+            line-height: 1.6;
+        }
+        h1, h2, h3 { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+        article:hover { 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+<!-- global+section-nav: injected -->
+
+<style>
+/* Old-money palette */
+:root {
+  --ivory:#f6f1e9; --parch:#fbf9f5; --ink:#2b1e16; --soft:#6b5d54; --line:#d8cfc4;
+  --deep:#423026; --accent:#b08d57; /* antique gold */
+}
+/* Global bar */
+.gnav{position:sticky;top:0;z-index:1000;background:var(--parch);border-bottom:1px solid var(--line)}
+.gnav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;gap:18px}
+.gnav__brand a{font:700 14px "Inter",system-ui,sans-serif;color:var(--ink);text-decoration:none;letter-spacing:.06em}
+.gnav__brand a::first-letter{letter-spacing:.02em}
+.gnav__list{list-style:none;display:flex;gap:18px;margin-left:8px}
+.gnav__item a{display:block;padding:8px 2px;color:var(--ink);text-decoration:none}
+.gnav__item a span{font:600 12px "Inter";text-transform:uppercase;letter-spacing:.11em;opacity:.88}
+.gnav__item a:hover span{opacity:1}
+/* Active = refined gold underline */
+.gnav__item--active a{position:relative}
+.gnav__item--active a::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--accent)}
+.gnav__spacer{flex:1}
+.gnav__right a{display:inline-block;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:600 12px "Inter";text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+.gnav__right a:hover{border-color:var(--accent)}
+@media (max-width:720px){.gnav__list{flex-wrap:wrap}}
+
+/* Section sub-nav */
+.snav{background:var(--ivory);border-bottom:1px solid var(--line)}
+.snav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.snav__label{font:700 12px "Inter";color:var(--soft);letter-spacing:.08em;text-transform:uppercase;margin-right:6px}
+.snav__tab{display:inline-block;padding:6px 8px;border-radius:4px;color:var(--ink);text-decoration:none;border:1px solid transparent}
+.snav__tab:hover{border-color:var(--line);background:#fff}
+.snav__tab--active{border-color:var(--accent);background:#fff}
+.snav__tab--active::after{content:"";display:block;height:2px;background:var(--accent);margin-top:4px}
+.snav__pill{margin-left:6px;font:700 10px "Inter";border:1px solid var(--line);border-radius:5px;padding:2px 6px;background:#fff;color:var(--deep)}
+</style>
+<nav id="global-nav-gentileschi" class="gnav" aria-label="Global">
+  <div class="gnav__wrap">
+    <div class="gnav__brand"><a href="../index.html">Gentileschi Project</a></div>
+    <ul class="gnav__list">
+      <li class="gnav__item"><a href="../index.html"><span>Home</span></a></li>
+      <li class="gnav__item"><a href="../Artemisia/artemisia_dataset_overview.html"><span>Artemisia</span></a></li>
+      <li class="gnav__item gnav__item--active"><a href="orazio_dataset_overview.html"><span>Orazio</span></a></li>
+      <li class="gnav__item"><a href="../Gender%20attribution/paintings_by_gender_overview.html"><span>Gender</span></a></li>
+      <li class="gnav__item"><a href="../attribution_analysis_results/attribution_analysis_report.html"><span>ML Report</span></a></li>
+    </ul>
+    <div class="gnav__spacer"></div>
+    <div class="gnav__right"><a href="../attribution_analysis_results/attribution_analysis_report.html">Open Analysis</a></div>
+  </div>
+</nav>
+
+<nav class="snav" aria-label="Section"><div class="snav__wrap">
+<div class="snav__label">Orazio</div>
+<a class="snav__tab" href="orazio_dataset_overview.html">Overview</a>
+<a class="snav__tab" href="orazio_unquestioned_gallery.html">Unquestioned</a>
+<a class="snav__tab snav__tab--active" href="orazio_questioned_gallery.html">Questioned</a>
+<a class="snav__tab" href="orazio_workshop_gallery.html">Workshop</a> <span class="snav__pill">Excluded from training</span>
+</div></nav>
+<!-- /global+section-nav -->
+
+
+
+
+
+
+
+
+    <header style="background:#fdfcfb;border-bottom:1px solid #e5dfd6;padding:48px 24px;">
+        <div style="max-width:1400px;margin:0 auto;">
+            <div style="text-align:center;">
+                <div style="font-size:11px;letter-spacing:0.3em;color:#8b7968;margin-bottom:16px;text-transform:uppercase;">Catalogue Raisonné</div>
+                <h1 style="font-size:32px;color:#2c1810;font-weight:300;margin-bottom:8px;letter-spacing:-0.02em;">Orazio Gentileschi</h1>
+                <div style="font-size:18px;color:#7c2d12;font-weight:400;letter-spacing:0.05em;">Questioned Attributions</div>
+                <div style="font-size:13px;color:#8b7968;margin-top:16px;">Compiled 2025-09-11T11:18:14.525947Z · Based on Bissell (1981) and Christiansen (2001)</div>
+            </div>
+        </div>
+    </header>
+    
+    <main style="max-width:1400px;margin:0 auto;padding:24px;">
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Questioned</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">26</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">18</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1601–1650</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1620</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Royal Collection</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>8</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo Civico d&#x27;Arte Antica</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Cleveland Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Fabriano Cathedral</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Fogg Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Gemäldegalerie Berlin</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Herzog Anton Ulrich Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>J. Paul Getty Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Kunsthistorisches Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo del Prado</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:24px;margin-top:48px;">
+            
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_02_A_Sibyl_1630.jpg" alt="A Sibyl"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">A Sibyl</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1630
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28031072
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 405560
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> mythological painting
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> sibyl
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_03_An_Allegory_of_Peace_and_the_A_1639.jpg" alt="An Allegory of Peace and the Arts"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">An Allegory of Peace and the Arts</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1639
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027610
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408464
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Longhi 1916 gave to Orazio, but Bissell 1981 questioned. Christiansen 2001 suggests workshop.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> allegory
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_05_Assumption_of_the_Virgin_1605.png" alt="Assumption of the Virgin"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Assumption of the Virgin</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1605
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q85833838
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo Civico d&#x27;Arte Antica
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_06_Baptism_of_Christ_1607.png" alt="Baptism of Christ"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Baptism of Christ</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044248
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Santa Maria della Pace
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Jesus Christ
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_07_Carrying_the_Cross_1607.jpg" alt="Carrying the Cross"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Carrying the Cross</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q27981974
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Kunsthistorisches Museum
+                         / GG_1553
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Jesus Christ
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_08_Christ_Crowned_with_Thorns_1612.jpg" alt="Christ  Crowned with Thorns"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Christ  Crowned with Thorns</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29032809
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Herzog Anton Ulrich Museum
+                         / GG 805
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Previously Caravaggio. Papi 2003 proposed Orazio, but not accepted by Christiansen 2001.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Jesus Christ
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_09_Crucifixion_1618.png" alt="Crucifixion"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Crucifixion</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1618
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29057057
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Fabriano Cathedral
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Jesus Christ
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_10_Danaë_1623.jpg" alt="Danaë"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Danaë</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1623
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q22329907
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> J. Paul Getty Museum
+                         / 2016.6
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1621, Cleveland. Spear 1971 questioned, favoring Artemisia. Garrard 1989 disagreed. Remains disputed.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> mythological painting
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Danaë
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_11_Danaë_1623.tiff" alt="Danaë"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Danaë</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1623
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29053312
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Cleveland Museum of Art
+                         / 1971.101
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1621, Cleveland. Spear 1971 questioned, favoring Artemisia. Garrard 1989 disagreed. Remains disputed.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> mythological painting
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Danaë
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_12_Head_of_a_Woman_1636.jpg" alt="Head of a Woman"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Head of a Woman</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29024302
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/7cb5a561a4088fee2476f286fecfa490
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Drawing. Attribution based on style only. No documentary evidence.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_13_Landscape_with_St_Christopher_1620.jpg" alt="Landscape with St Christopher"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Landscape with St Christopher</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29047663
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Gemäldegalerie Berlin
+                         / 1707
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Saint Christopher
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_14_Lucretia_1650.jpg" alt="Lucretia"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Lucretia</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1650
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q57706410
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/e8848e225d056e35b16a718f0aafa772
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> history painting
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_15_Mocking_of_Christ_1628.jpg" alt="Mocking of Christ"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Mocking of Christ</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1628
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29057068
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/6681511829bf47de79b0e5a14ea82c05
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Jesus Christ
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_16_Personification_of_Architectur_1636.jpg" alt="Personification of Architecture"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Personification of Architecture</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027615
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408467
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_17_Personification_of_Music_1636.jpg" alt="Personification of Music"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Personification of Music</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027612
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408465
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> music
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_18_Personification_of_Painting_1636.jpg" alt="Personification of Painting"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Personification of Painting</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027614
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408466
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_19_Personification_of_Sculpture_1636.jpg" alt="Personification of Sculpture"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Personification of Sculpture</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027617
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408468
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_21_St_Francis_Receiving_the_Stigm_1620.jpg" alt="St. Francis Receiving the Stigmata"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">St. Francis Receiving the Stigmata</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29045278
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> San Silvestro in Capite
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> stigmata
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_22_St_Francis_Receiving_the_Stigm_1620.jpg" alt="St. Francis Receiving the Stigmata"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">St. Francis Receiving the Stigmata</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29057062
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/4d3b385efe36f0dffc970b60418b1540
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Francis of Assisi
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_23_St_Jerome_1610.jpg" alt="St. Jerome"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">St. Jerome</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1610
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044316
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo Civico d&#x27;Arte Antica
+                         / 0587/D
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Jerome
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_24_St_Michael_and_the_Devil_1607.png" alt="St. Michael and the Devil"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">St. Michael and the Devil</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044310
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/88c8164f666fbce8b399ae302464c2d4
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Early work. Moir 1967 questioned. Style problems noted by Bissell 1981.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> devil
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_26_The_Muses_Euterpe_and_Calliope_undated.jpg" alt="The Muses: Euterpe and Calliope"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Muses: Euterpe and Calliope</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> undated
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28021777
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408472
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_27_The_Muses_Urania_Calliope_and__1636.jpg" alt="The Muses: Urania, Calliope and Melpomene"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Muses: Urania, Calliope and Melpomene</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027618
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408469
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_28_The_Virgin_with_the_Sleeping_C_1610.jpg" alt="The Virgin with the Sleeping Christ Child"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Virgin with the Sleeping Christ Child</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1610
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29033536
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Fogg Museum
+                         / 1976.10
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_29_Vision_of_St_Cecilia_1607.jpg" alt="Vision of St. Cecilia"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Vision of St. Cecilia</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044245
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Pinacoteca di Brera
+                         / 588
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_questioned/QUE_30_Young_Jesus_sleeping_on_the_Cr_1601.jpg" alt="Young Jesus sleeping on the Cross"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Young Jesus sleeping on the Cross</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #7c2d12;font-size:10px;letter-spacing:0.08em;background:transparent;color:#7c2d12;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">DISPUTED</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1601
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29025481
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo del Prado
+                         / P001240
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Not found in Bissell 1981 catalogue or Christiansen 2001 exhibition. Requires scholarly verification.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Jesus Christ
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        </div>
+    </main>
+    
+    <footer style="background:#fdfcfb;border-top:1px solid #e5dfd6;margin-top:96px;padding:48px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:12px;color:#8b7968;line-height:1.8;">
+                <div style="margin-bottom:16px;">
+                    <strong>Attribution Sources:</strong> R. Ward Bissell (1981) · Keith Christiansen & Judith W. Mann (2001) · Recent Scholarship (2020-2025)
+                </div>
+                <div style="font-size:11px;color:#a09388;">
+                    Dataset compiled from Wikidata and Wikimedia Commons · OrazioPublicationDataset/2.0
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

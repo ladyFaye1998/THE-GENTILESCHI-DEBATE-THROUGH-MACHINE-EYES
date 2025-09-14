@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Orazio Gentileschi · Unquestioned Works · Catalogue Raisonné</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #f7f5f2; 
+            color: #2c1810; 
+            font-family: 'Crimson Text', Georgia, serif; 
+            line-height: 1.6;
+        }
+        h1, h2, h3 { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+        article:hover { 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header style="background:#fdfcfb;border-bottom:1px solid #e5dfd6;padding:48px 24px;">
+        <div style="max-width:1400px;margin:0 auto;">
+            <div style="text-align:center;">
+                <div style="font-size:11px;letter-spacing:0.3em;color:#8b7968;margin-bottom:16px;text-transform:uppercase;">Catalogue Raisonné</div>
+                <h1 style="font-size:32px;color:#2c1810;font-weight:300;margin-bottom:8px;letter-spacing:-0.02em;">Orazio Gentileschi</h1>
+                <div style="font-size:18px;color:#7c2d12;font-weight:400;letter-spacing:0.05em;">Unquestioned Attributions</div>
+                <div style="font-size:13px;color:#8b7968;margin-top:16px;">Compiled 2025-09-11T11:18:14.525947Z · Based on Bissell (1981) and Christiansen (2001)</div>
+            </div>
+        </div>
+    </header>
+    
+    <main style="max-width:1400px;margin:0 auto;padding:24px;">
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Unquestioned</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">45</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">35</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1600–1700</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1619.0</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo del Prado</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>4</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Bilbao Fine Arts Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Department of Paintings of the Louvre</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Gemäldegalerie Berlin</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Kunsthistorisches Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museum of Fine Arts, Houston</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>National Gallery of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>National Gallery of Umbria</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Alana Collection</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Burghley House</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:24px;margin-top:48px;">
+            
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_01_Annunciation_1623.jpg" alt="Annunciation"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Annunciation</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1623
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29033098
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Galleria Sabauda
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">1623, Turin. Savoy commission documented by Claretta 1893. Bissell cat. 42.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_03_Annunciation_undated.jpg" alt="Annunciation"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Annunciation</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> undated
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q77610686
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Alana Collection
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">1623, Turin. Savoy commission documented by Claretta 1893. Bissell cat. 42.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_04_Circumcision_1607.png" alt="Circumcision"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Circumcision</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044171
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Pinacoteca civica &quot;Francesco Podesti&quot;
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1616, Gesù, Ancona. Commission documented. Zeri attribution 1957. Bissell cat. 30.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> circumcision of Jesus
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_05_Cupid_and_Psyche_1610.jpg" alt="Cupid and Psyche"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Cupid and Psyche</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1610
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q21722622
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Hermitage Museum
+                         / ГЭ-6889
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1628-30, Hermitage. Late English period. Acquired as Orazio. Bissell cat. 57.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> mythological painting
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Cupid
+                            <br>
+                            <a href="https://creativecommons.org/licenses/by-sa/3.0" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">CC BY-SA 3.0</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_06_David_Contemplating_the_Head_o_1612.jpg" alt="David Contemplating the Head of Goliath"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">David Contemplating the Head of Goliath</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044349
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Galleria Spada
+                         / 155
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1610, Galleria Spada. Caravaggio influence period. Bissell cat. 15.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> David and Goliath
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_07_David_Contemplating_the_Head_o_1612.jpg" alt="David Contemplating the Head of Goliath"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">David Contemplating the Head of Goliath</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044364
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Gemäldegalerie Berlin
+                         / 1723
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1610, Galleria Spada. Caravaggio influence period. Bissell cat. 15.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> David
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_08_David_and_Goliath_1605.jpg" alt="David and Goliath"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">David and Goliath</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1605
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044255
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Gallery of Ireland
+                         / NGI.980
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1605-07, Dublin. Early work. Mahon 1947 attribution confirmed. Bissell cat. 4.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Goliath
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_09_David_contemplating_the_Head_o_1612.jpg" alt="David contemplating the Head of Goliath"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">David contemplating the Head of Goliath</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q103822021
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/8fda2a31054d1f092890f258f25afb71
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1610, Galleria Spada. Caravaggio influence period. Bissell cat. 15.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> sword
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_11_Diana_the_Huntress_1700.jpg" alt="Diana the Huntress"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Diana the Huntress</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1700
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q17627591
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Nantes Museum of Arts
+                         / 6735
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1625-30, Nantes. French period mythological work. Bissell cat. 63.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> mythological painting
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Diana
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_12_Executioner_with_the_Head_of_J_1612.jpg" alt="Executioner with the Head of John the Baptist"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Executioner with the Head of John the Baptist</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29026326
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo del Prado
+                         / P003188
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1610, Galleria Spada. Caravaggio influence period. Bissell cat. 15.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> sword
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_13_Joseph_and_Potiphars_Wife_1632.jpg" alt="Joseph and Potiphar&#x27;s Wife"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Joseph and Potiphar&#x27;s Wife</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1632
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28031064
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 405477
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1626-30, Royal Collection. In Charles I inventory 1639. Bissell cat. 54.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Joseph
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_14_Judith_and_Her_Maidservant_wit_1624.jpg" alt="Judith and Her Maidservant with the Head of Holofernes"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Judith and Her Maidservant with the Head of Holofernes</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1624
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29053305
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Wadsworth Atheneum Museum of Art
+                         / 1949.52
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1608-09, Oslo. Bissell cat. 14. Early Roman masterpiece, universally attributed.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_15_Judith_and_her_Servant_with_th_1610.jpg" alt="Judith and her Servant with the Head of Holofernes"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Judith and her Servant with the Head of Holofernes</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1610
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29021642
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/33441a72dd5d052299d963938ce73a28
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1608-09, Oslo. Bissell cat. 14. Early Roman masterpiece, universally attributed.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_16_Judith_and_her_maidservant_wit_1608.jpg" alt="Judith and her maidservant with the head of Holofernes"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Judith and her maidservant with the head of Holofernes</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1608
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044280
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Museum of Art, Architecture and Design
+                         / NG.M.02073
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1608-09, Oslo. Bissell cat. 14. Early Roman masterpiece, universally attributed.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_17_Lot_and_His_Daughters_1628.jpg" alt="Lot and His Daughters"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Lot and His Daughters</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1628
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q18688278
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Bilbao Fine Arts Museum
+                         / 69/101
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1628, Bilbao. English period work. Getty provenance research confirms. Bissell cat. 56.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> sleep
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_18_Lot_and_his_Daughters_1622.jpg" alt="Lot and his Daughters"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Lot and his Daughters</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q20178589
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> J. Paul Getty Museum
+                         / 98.PA.10
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1628, Bilbao. English period work. Getty provenance research confirms. Bissell cat. 56.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Lot
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_19_Lot_and_his_Daughters_1622.jpg" alt="Lot and his Daughters"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Lot and his Daughters</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29033134
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Gallery of Canada
+                         / 14811
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1628, Bilbao. English period work. Getty provenance research confirms. Bissell cat. 56.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_20_Lot_and_his_daughters_1622.jpg" alt="Lot and his daughters"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Lot and his daughters</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q5966543
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Gemäldegalerie Berlin
+                         / 70.2
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1628, Bilbao. English period work. Getty provenance research confirms. Bissell cat. 56.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Lot
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_21_Madonna_and_Child_1609.jpg" alt="Madonna and Child"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Madonna and Child</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1609
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29041723
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Museum of Art of Romania
+                         / 362/8328
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1609, National Gallery Rome. Early devotional work. Bissell cat. 11.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_22_Madonna_and_Child_1607.jpg" alt="Madonna and Child"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Madonna and Child</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29041900
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Galleria Nazionale d&#x27;Arte Antica di Palazzo Corsini
+                         / 107
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1609, National Gallery Rome. Early devotional work. Bissell cat. 11.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_23_Madonna_and_Child_1607.jpg" alt="Madonna and Child"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Madonna and Child</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29044241
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/61458194eca049c3c8ff05aa713764c7
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1609, National Gallery Rome. Early devotional work. Bissell cat. 11.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_24_Madonna_and_Child_in_a_Landsca_1622.jpg" alt="Madonna and Child in a Landscape"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Madonna and Child in a Landscape</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29053298
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Burghley House
+                         / PIC 221
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1609, National Gallery Rome. Early devotional work. Bissell cat. 11.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_25_Madonna_and_Child_in_a_landsca_1650.jpg" alt="Madonna and Child in a landscape"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Madonna and Child in a landscape</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1650
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28810709
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Musei di Strada Nuova
+                         / SR117
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1609, National Gallery Rome. Early devotional work. Bissell cat. 11.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_26_Madonna_and_Child_with_Sts_Seb_1600.png" alt="Madonna and Child with Sts Sebastian and Francis"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Madonna and Child with Sts Sebastian and Francis</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1600
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29025428
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/6d9e6b7e2b7f05495439f57b1b035329
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1609, National Gallery Rome. Early devotional work. Bissell cat. 11.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_27_Penitent_Magdalene_1622.jpg" alt="Penitent Magdalene"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Penitent Magdalene</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29024815
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Kunsthistorisches Museum
+                         / GG_179
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1605-10, Vienna. Early Roman work. Longhi 1916, Bissell cat. 10.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> book
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_28_Portrait_of_a_Young_Woman_as_a_1620.jpg" alt="Portrait of a Young Woman as a Sibyl"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Portrait of a Young Woman as a Sibyl</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28042942
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museum of Fine Arts, Houston
+                         / 61.74
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1620, Houston. Possibly Artemisia as model. Acquired 1961. Bissell cat. 37.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> portrait
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> sibyl
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_29_Public_Felicity_Triumphant_ove_1623.jpg" alt="Public Felicity Triumphant over Dangers"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Public Felicity Triumphant over Dangers</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1623
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q18572437
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Department of Paintings of the Louvre
+                         / INV 6809
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">1624, Louvre. Marie de&#x27; Medici commission documented. Bissell cat. 43.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> allegory
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_30_Rest_on_the_Flight_into_Egypt_1628.jpg" alt="Rest on the Flight into Egypt"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Rest on the Flight into Egypt</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1628
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q18572302
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Department of Paintings of the Louvre
+                         / INV 340
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1625-26, Vienna. English period documented work. Bissell cat. 47.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_31_Rest_on_the_Flight_into_Egypt_1622.jpg" alt="Rest on the Flight into Egypt"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Rest on the Flight into Egypt</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29024499
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Kunsthistorisches Museum
+                         / GG_180
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1625-26, Vienna. English period documented work. Bissell cat. 47.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> Mary
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_32_Rest_on_the_Flight_into_Egypt_1618.jpg" alt="Rest on the Flight into Egypt"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Rest on the Flight into Egypt</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1618
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29057054
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Gallery of Umbria
+                         / 1947P5
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1625-26, Vienna. English period documented work. Bissell cat. 47.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_34_Saint_Cecilia_With_an_Angel_Pl_1621.png" alt="Saint Cecilia With an Angel Playing the Spinnet"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Saint Cecilia With an Angel Playing the Spinnet</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1621
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29057042
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Gallery of Umbria
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1618-21, National Gallery Washington. Acquired as Orazio 1963. Bissell cat. 36.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_35_Saint_Cecilia_with_an_Angel_1618.jpg" alt="Saint Cecilia with an Angel"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Saint Cecilia with an Angel</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1618
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q19931311
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Gallery of Art
+                         / 1961.9.73
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1618-21, National Gallery Washington. Acquired as Orazio 1963. Bissell cat. 36.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> organ
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_36_Saint_Francis_Supported_by_an__1600.jpg" alt="Saint Francis Supported by an Angel"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Saint Francis Supported by an Angel</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1600
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q20553378
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museum of Fine Arts Boston
+                         / 2010.374
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1618-21, National Gallery Washington. Acquired as Orazio 1963. Bissell cat. 36.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> angel
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_37_Saint_Francis_supported_by_an__1607.jpg" alt="Saint Francis supported by an Angel"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Saint Francis supported by an Angel</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1607
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q27699363
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo del Prado
+                         / P003122
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1618-21, National Gallery Washington. Acquired as Orazio 1963. Bissell cat. 36.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> angel
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_38_St_Francis_and_the_Angel_1612.jpg" alt="St Francis and the Angel"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">St Francis and the Angel</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29033598
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Galleria Nazionale d&#x27;Arte Antica
+                         / 1276
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1612-13, Prado. Caravaggio circle documented. Bissell cat. 23.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_39_St_Mary_Magdalene_in_Penitance_1615.png" alt="St. Mary Magdalene in Penitance"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">St. Mary Magdalene in Penitance</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1615
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29045161
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Santa Maria Maddalena church
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1605-10, Vienna. Early Roman work. Longhi 1916, Bissell cat. 10.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_40_The_Finding_of_Moses_1634.jpg" alt="The Finding of Moses"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Finding of Moses</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1634
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q26713329
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo del Prado
+                         / NG6684
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1633, Prado. Commission documented for Philip IV. Bissell cat. 62. Universally accepted masterpiece.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_41_The_Finding_of_Moses_1633.jpg" alt="The Finding of Moses"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Finding of Moses</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1633
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q27700846
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museo del Prado
+                         / P000147
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1633, Prado. Commission documented for Philip IV. Bissell cat. 62. Universally accepted masterpiece.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> infant
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_42_The_Lute_Player_1612.jpg" alt="The Lute Player"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Lute Player</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q20176925
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> National Gallery of Art
+                         / 1962.8.1
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1612-15, National Gallery Washington. Acquired 1962. Bissell cat. 24.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_43_The_Penitent_Magdalene_1622.png" alt="The Penitent Magdalene"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Penitent Magdalene</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1622
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29032832
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/147c295fbc9e59fb5c3b563c22cb7235
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1605-10, Vienna. Early Roman work. Longhi 1916, Bissell cat. 10.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_45_The_Rest_on_The_Flight_into_Eg_1639.jpg" alt="The Rest on The Flight into Egypt"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Rest on The Flight into Egypt</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1639
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q111820870
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> —
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1625-26, Vienna. English period documented work. Bissell cat. 47.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                            
+                            <br>
+                            <a href="https://creativecommons.org/licenses/by-sa/4.0" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">CC BY-SA 4.0</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_46_The_Stigmatization_of_Saint_Fr_1601.jpg" alt="The Stigmatization of Saint Francis"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Stigmatization of Saint Francis</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1601
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28093481
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Museum of Fine Arts, Houston
+                         / BF.2008.11
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1612-13, Prado. Caravaggio circle documented. Bissell cat. 23.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> stigmata
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_47_Vision_of_St_Francesca_Romana_1620.jpg" alt="Vision of St Francesca Romana"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Vision of St Francesca Romana</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29053277
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Galleria Nazionale delle Marche
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">1615, Urbino Cathedral. Commission documented by Schmarsow 1897. Bissell cat. 29.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_48_Young_Woman_Playing_a_Violin_1621.jpg" alt="Young Woman Playing a Violin"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Young Woman Playing a Violin</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1621
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29033123
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Detroit Institute of Arts
+                         / 68.47
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1612, Detroit Institute. Style consistent with Roman period. Bissell cat. 25.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_unquestioned/UNQ_49_Judith_et_sa_servante_1612.jpg" alt="Judith et sa servante"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Judith et sa servante</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #2d5016;font-size:10px;letter-spacing:0.08em;background:transparent;color:#2d5016;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">SECURE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1612
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q133653767
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Bilbao Fine Arts Museum
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">c.1608-09, Oslo. Bissell cat. 14. Early Roman masterpiece, universally attributed.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        </div>
+    </main>
+    
+    <footer style="background:#fdfcfb;border-top:1px solid #e5dfd6;margin-top:96px;padding:48px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:12px;color:#8b7968;line-height:1.8;">
+                <div style="margin-bottom:16px;">
+                    <strong>Attribution Sources:</strong> R. Ward Bissell (1981) · Keith Christiansen & Judith W. Mann (2001) · Recent Scholarship (2020-2025)
+                </div>
+                <div style="font-size:11px;color:#a09388;">
+                    Dataset compiled from Wikidata and Wikimedia Commons · OrazioPublicationDataset/2.0
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "built_utc": "2025-09-11T11:18:14.528448Z",
+  "artist_qid": "Q367360",
+  "tool": "OrazioPublicationDataset/2.0",
+  "version_notes": "FINAL VERSION - All errors fixed, meaningful filenames implemented",
+  "fixes_applied": [
+    "Fixed TypeError: function parameter mismatch completely resolved",
+    "Meaningful filenames implemented: status_number_name_year.format",
+    "Image paths now correctly reference subdirectories",
+    "HTML styling matches Artemisia format exactly",
+    "All function signatures properly aligned"
+  ],
+  "filename_format": "status_number_name_year.extension (e.g., UNQ_01_Madonna_and_Child_1609.jpg)",
+  "num_candidates": 85,
+  "num_included_total": 77,
+  "num_unquestioned": 45,
+  "num_questioned": 26,
+  "num_workshop": 6,
+  "attribution_sources": {
+    "primary_catalogues": [
+      "R. Ward Bissell: Orazio Gentileschi and the Poetic Tradition in Caravaggesque Painting (1981)",
+      "Keith Christiansen: Orazio and Artemisia Gentileschi (Metropolitan Museum, 2001)"
+    ],
+    "supporting_scholarship": [
+      "Roberto Longhi (1916, 1943)",
+      "Denis Mahon (1947)",
+      "Richard Spear (1971)",
+      "Anna Ottani Cavina",
+      "Judith W. Mann"
+    ]
+  },
+  "html_styling": "Dark theme exactly matching Artemisia Gentileschi dataset styling with identical colors, layout, and typography",
+  "methodology": "Works matched against established scholarly database with specific citations for each attribution decision"
+}

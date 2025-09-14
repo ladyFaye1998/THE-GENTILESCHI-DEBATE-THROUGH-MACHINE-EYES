@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- favicon: injected -->
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="shortcut icon" href="../assets/favicon.svg">
+<!-- /favicon -->
+
+
+
+
+
+    <meta charset="utf-8">
+    <title>Paintings by Gender · Comparative Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #f7f5f2; 
+            color: #2c1810; 
+            font-family: 'Crimson Text', Georgia, serif; 
+            line-height: 1.6;
+        }
+        h1, h2, h3 { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+    </style>
+</head>
+<body>
+<!-- global+section-nav: injected -->
+
+<style>
+/* Old-money palette */
+:root {
+  --ivory:#f6f1e9; --parch:#fbf9f5; --ink:#2b1e16; --soft:#6b5d54; --line:#d8cfc4;
+  --deep:#423026; --accent:#b08d57; /* antique gold */
+}
+/* Global bar */
+.gnav{position:sticky;top:0;z-index:1000;background:var(--parch);border-bottom:1px solid var(--line)}
+.gnav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;gap:18px}
+.gnav__brand a{font:700 14px "Inter",system-ui,sans-serif;color:var(--ink);text-decoration:none;letter-spacing:.06em}
+.gnav__brand a::first-letter{letter-spacing:.02em}
+.gnav__list{list-style:none;display:flex;gap:18px;margin-left:8px}
+.gnav__item a{display:block;padding:8px 2px;color:var(--ink);text-decoration:none}
+.gnav__item a span{font:600 12px "Inter";text-transform:uppercase;letter-spacing:.11em;opacity:.88}
+.gnav__item a:hover span{opacity:1}
+/* Active = refined gold underline */
+.gnav__item--active a{position:relative}
+.gnav__item--active a::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--accent)}
+.gnav__spacer{flex:1}
+.gnav__right a{display:inline-block;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:600 12px "Inter";text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+.gnav__right a:hover{border-color:var(--accent)}
+@media (max-width:720px){.gnav__list{flex-wrap:wrap}}
+
+/* Section sub-nav */
+.snav{background:var(--ivory);border-bottom:1px solid var(--line)}
+.snav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.snav__label{font:700 12px "Inter";color:var(--soft);letter-spacing:.08em;text-transform:uppercase;margin-right:6px}
+.snav__tab{display:inline-block;padding:6px 8px;border-radius:4px;color:var(--ink);text-decoration:none;border:1px solid transparent}
+.snav__tab:hover{border-color:var(--line);background:#fff}
+.snav__tab--active{border-color:var(--accent);background:#fff}
+.snav__tab--active::after{content:"";display:block;height:2px;background:var(--accent);margin-top:4px}
+.snav__pill{margin-left:6px;font:700 10px "Inter";border:1px solid var(--line);border-radius:5px;padding:2px 6px;background:#fff;color:var(--deep)}
+</style>
+<nav id="global-nav-gentileschi" class="gnav" aria-label="Global">
+  <div class="gnav__wrap">
+    <div class="gnav__brand"><a href="../index.html">Gentileschi Project</a></div>
+    <ul class="gnav__list">
+      <li class="gnav__item"><a href="../index.html"><span>Home</span></a></li>
+      <li class="gnav__item"><a href="../Artemisia/artemisia_dataset_overview.html"><span>Artemisia</span></a></li>
+      <li class="gnav__item"><a href="../Orazio/orazio_dataset_overview.html"><span>Orazio</span></a></li>
+      <li class="gnav__item gnav__item--active"><a href="paintings_by_gender_overview.html"><span>Gender</span></a></li>
+      <li class="gnav__item"><a href="../attribution_analysis_results/attribution_analysis_report.html"><span>ML Report</span></a></li>
+    </ul>
+    <div class="gnav__spacer"></div>
+    <div class="gnav__right"><a href="../attribution_analysis_results/attribution_analysis_report.html">Open Analysis</a></div>
+  </div>
+</nav>
+
+<nav class="snav" aria-label="Section"><div class="snav__wrap">
+<div class="snav__label">By Gender</div>
+<a class="snav__tab snav__tab--active" href="paintings_by_gender_overview.html">Overview</a>
+<a class="snav__tab" href="female_paintings_gallery.html">Female</a>
+<a class="snav__tab" href="male_paintings_gallery.html">Male</a>
+</div></nav>
+<!-- /global+section-nav -->
+
+
+
+
+
+    <header style="background:#fdfcfb;border-bottom:1px solid #e5dfd6;padding:64px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:11px;letter-spacing:0.3em;color:#8b7968;margin-bottom:16px;text-transform:uppercase;">Digital Art Historical Database</div>
+            <h1 style="font-size:40px;color:#2c1810;font-weight:300;margin-bottom:16px;letter-spacing:-0.02em;">Paintings by Gender</h1>
+            <div style="font-size:18px;color:#6b5d54;font-weight:400;">Comparative Dataset Overview</div>
+            <div style="font-size:13px;color:#8b7968;margin-top:24px;">Dataset compiled 2025-09-12T20:17:15Z</div>
+        </div>
+    </header>
+    
+    <main style="max-width:1200px;margin:0 auto;padding:48px 24px;">
+        
+    <section style="margin:64px auto;max-width:1100px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Complete Corpus</h2>
+      
+      <div style="display:flex;justify-content:center;gap:60px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Paintings</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">784</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Unique Artists</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">193</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">350</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1180–2000</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1861.0</div>
+        </div>
+      </div>
+      
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:48px;">
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Top Artists</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Angelica Kauffmann</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Beatrix Potter</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Berthe Morisot</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Germaine Chardon</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Judy Chicago</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Unknown</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>92</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Bavarian State Painting Collections</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>18</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Nationalmuseum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>18</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Tate</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>17</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Department of Paintings of the Louvre</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>14</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">By Century</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>12th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>13th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>16</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>14th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>15th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>19</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>16th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>52</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>17th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>93</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>18th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>63</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>19th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>227</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>20th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>212</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>21th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        
+    <section style="margin:64px auto;max-width:1100px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Female Artists</h2>
+      
+      <div style="display:flex;justify-content:center;gap:60px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Paintings</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">395</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Unique Artists</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">87</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">201</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1180–2000</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1888</div>
+        </div>
+      </div>
+      
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:48px;">
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Top Artists</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Angelica Kauffmann</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Beatrix Potter</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Berthe Morisot</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Germaine Chardon</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Judy Chicago</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>10</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Unknown</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>74</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Smithsonian American Art Museum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>12</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Tate</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>12</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Nationalmuseum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>9</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Department of Paintings of the Louvre</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>7</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">By Century</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>12th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>16th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>9</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>17th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>34</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>18th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>38</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>19th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>111</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>20th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>145</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>21th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        
+    <section style="margin:64px auto;max-width:1100px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Male Artists</h2>
+      
+      <div style="display:flex;justify-content:center;gap:60px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Paintings</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">389</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Unique Artists</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">106</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">209</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1200–1972</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1816</div>
+        </div>
+      </div>
+      
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:48px;margin-top:48px;">
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Top Artists</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Albert Anker</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>6</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>El Greco</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>6</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Gustav Courbet</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>6</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Gustav Klimt</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>6</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Hieronymus Bosch</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>6</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Unknown</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>18</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Bavarian State Painting Collections</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>15</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Museo del Prado</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>9</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Nationalmuseum</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>9</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Metropolitan Museum of Art</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>8</td></tr></tbody>
+          </table>
+        </div>
+        
+        <div>
+          <h3 style="font-size:11px;color:#8b7968;margin-bottom:16px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">By Century</h3>
+          <table style="margin:0 auto;border-collapse:collapse;">
+            <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>13th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>16</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>14th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>15th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>19</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>16th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>43</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>17th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>59</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>18th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>25</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>19th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>116</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>20th century</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>67</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        
+        <section style="margin:64px auto;padding:32px;background:#fdfcfb;border:1px solid #e5dfd6;max-width:900px;">
+            <h2 style="font-size:14px;letter-spacing:0.15em;color:#7c2d12;font-weight:400;margin-bottom:24px;text-transform:uppercase;font-family:'Courier New',monospace;text-align:center;">Comparative Analysis</h2>
+            
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:32px;">
+                <div style="text-align:center;">
+                    <h3 style="font-size:16px;color:#8b2c5e;margin-bottom:20px;font-weight:400;">Female Artists</h3>
+                    <div style="margin-bottom:12px;">
+                        <div style="font-size:36px;color:#2c1810;font-weight:300;line-height:1;">395</div>
+                        <div style="font-size:12px;color:#8b7968;text-transform:uppercase;letter-spacing:0.05em;">Total Paintings</div>
+                    </div>
+                    <div style="font-size:13px;color:#6b5d54;line-height:1.8;margin-top:16px;">
+                        <div><span style="color:#8b7968;">Artists:</span> 87</div>
+                        <div><span style="color:#8b7968;">Date Range:</span> 1180–2000</div>
+                        <div><span style="color:#8b7968;">Median Year:</span> 1888</div>
+                        <div><span style="color:#8b7968;">Licensed:</span> 394</div>
+                    </div>
+                </div>
+                
+                <div style="text-align:center;">
+                    <h3 style="font-size:16px;color:#1e4788;margin-bottom:20px;font-weight:400;">Male Artists</h3>
+                    <div style="margin-bottom:12px;">
+                        <div style="font-size:36px;color:#2c1810;font-weight:300;line-height:1;">389</div>
+                        <div style="font-size:12px;color:#8b7968;text-transform:uppercase;letter-spacing:0.05em;">Total Paintings</div>
+                    </div>
+                    <div style="font-size:13px;color:#6b5d54;line-height:1.8;margin-top:16px;">
+                        <div><span style="color:#8b7968;">Artists:</span> 106</div>
+                        <div><span style="color:#8b7968;">Date Range:</span> 1200–1972</div>
+                        <div><span style="color:#8b7968;">Median Year:</span> 1816</div>
+                        <div><span style="color:#8b7968;">Licensed:</span> 389</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section style="margin-top:64px;padding:32px;background:#fdfcfb;border:1px solid #e5dfd6;">
+            <h2 style="font-size:14px;letter-spacing:0.15em;color:#7c2d12;font-weight:400;margin-bottom:24px;text-transform:uppercase;font-family:'Courier New',monospace;">Methodology</h2>
+            <div style="font-size:15px;line-height:1.8;color:#6b5d54;">
+                <p style="margin-bottom:16px;">This comparative dataset provides a balanced representation of paintings by artists of different genders, compiled from Wikidata with full attribution metadata from Wikimedia Commons.</p>
+                
+                <h3 style="font-size:13px;color:#8b7968;margin:24px 0 12px;letter-spacing:0.05em;text-transform:uppercase;">Collection Parameters</h3>
+                <ul style="list-style:none;padding-left:0;">
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Data Source: Wikidata structured data for paintings with gender-identified artists
+                    </li>
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Target Size: 400 paintings per gender category
+                    </li>
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Diversity Constraint: Maximum 10 paintings per female artist, 6 per male artist
+                    </li>
+                    <li style="margin-bottom:8px;padding-left:20px;position:relative;">
+                        <span style="position:absolute;left:0;">·</span>
+                        Attribution: Complete TASL (Title, Author, Source, License) metadata
+                    </li>
+                </ul>
+                
+                <h3 style="font-size:13px;color:#8b7968;margin:24px 0 12px;letter-spacing:0.05em;text-transform:uppercase;">File Organization</h3>
+                <p style="font-size:14px;color:#6b5d54;">
+                    Images are organized with systematic naming: GENDER_number_artist_title_year.extension<br>
+                    This facilitates programmatic analysis while maintaining human readability.
+                </p>
+                
+                <div style="margin-top:32px;padding-top:24px;border-top:1px solid #e5dfd6;">
+                    <p style="font-size:13px;color:#8b7968;">
+                        This dataset is designed for comparative art historical research and computational analysis,
+                        with careful attention to licensing requirements and proper attribution.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer style="background:#fdfcfb;border-top:1px solid #e5dfd6;margin-top:96px;padding:48px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:11px;color:#a09388;line-height:1.8;">
+                Digital dataset compiled from Wikidata metadata and Wikimedia Commons resources<br>
+                GenderPaintingsDB/3.0 · Research use with appropriate citation
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- favicon: injected -->
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="shortcut icon" href="../assets/favicon.svg">
+<!-- /favicon -->
+
+
+
+
+
+
+
+
+    <meta charset="utf-8">
+    <title>Orazio Gentileschi · Workshop Works · Catalogue Raisonné</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #f7f5f2; 
+            color: #2c1810; 
+            font-family: 'Crimson Text', Georgia, serif; 
+            line-height: 1.6;
+        }
+        h1, h2, h3 { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+        article:hover { 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+<!-- global+section-nav: injected -->
+
+<style>
+/* Old-money palette */
+:root {
+  --ivory:#f6f1e9; --parch:#fbf9f5; --ink:#2b1e16; --soft:#6b5d54; --line:#d8cfc4;
+  --deep:#423026; --accent:#b08d57; /* antique gold */
+}
+/* Global bar */
+.gnav{position:sticky;top:0;z-index:1000;background:var(--parch);border-bottom:1px solid var(--line)}
+.gnav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;align-items:center;gap:18px}
+.gnav__brand a{font:700 14px "Inter",system-ui,sans-serif;color:var(--ink);text-decoration:none;letter-spacing:.06em}
+.gnav__brand a::first-letter{letter-spacing:.02em}
+.gnav__list{list-style:none;display:flex;gap:18px;margin-left:8px}
+.gnav__item a{display:block;padding:8px 2px;color:var(--ink);text-decoration:none}
+.gnav__item a span{font:600 12px "Inter";text-transform:uppercase;letter-spacing:.11em;opacity:.88}
+.gnav__item a:hover span{opacity:1}
+/* Active = refined gold underline */
+.gnav__item--active a{position:relative}
+.gnav__item--active a::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:var(--accent)}
+.gnav__spacer{flex:1}
+.gnav__right a{display:inline-block;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink);font:600 12px "Inter";text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+.gnav__right a:hover{border-color:var(--accent)}
+@media (max-width:720px){.gnav__list{flex-wrap:wrap}}
+
+/* Section sub-nav */
+.snav{background:var(--ivory);border-bottom:1px solid var(--line)}
+.snav__wrap{max-width:1200px;margin:0 auto;padding:10px 18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.snav__label{font:700 12px "Inter";color:var(--soft);letter-spacing:.08em;text-transform:uppercase;margin-right:6px}
+.snav__tab{display:inline-block;padding:6px 8px;border-radius:4px;color:var(--ink);text-decoration:none;border:1px solid transparent}
+.snav__tab:hover{border-color:var(--line);background:#fff}
+.snav__tab--active{border-color:var(--accent);background:#fff}
+.snav__tab--active::after{content:"";display:block;height:2px;background:var(--accent);margin-top:4px}
+.snav__pill{margin-left:6px;font:700 10px "Inter";border:1px solid var(--line);border-radius:5px;padding:2px 6px;background:#fff;color:var(--deep)}
+</style>
+<nav id="global-nav-gentileschi" class="gnav" aria-label="Global">
+  <div class="gnav__wrap">
+    <div class="gnav__brand"><a href="../index.html">Gentileschi Project</a></div>
+    <ul class="gnav__list">
+      <li class="gnav__item"><a href="../index.html"><span>Home</span></a></li>
+      <li class="gnav__item"><a href="../Artemisia/artemisia_dataset_overview.html"><span>Artemisia</span></a></li>
+      <li class="gnav__item gnav__item--active"><a href="orazio_dataset_overview.html"><span>Orazio</span></a></li>
+      <li class="gnav__item"><a href="../Gender%20attribution/paintings_by_gender_overview.html"><span>Gender</span></a></li>
+      <li class="gnav__item"><a href="../attribution_analysis_results/attribution_analysis_report.html"><span>ML Report</span></a></li>
+    </ul>
+    <div class="gnav__spacer"></div>
+    <div class="gnav__right"><a href="../attribution_analysis_results/attribution_analysis_report.html">Open Analysis</a></div>
+  </div>
+</nav>
+
+<nav class="snav" aria-label="Section"><div class="snav__wrap">
+<div class="snav__label">Orazio</div>
+<a class="snav__tab" href="orazio_dataset_overview.html">Overview</a>
+<a class="snav__tab" href="orazio_unquestioned_gallery.html">Unquestioned</a>
+<a class="snav__tab" href="orazio_questioned_gallery.html">Questioned</a>
+<a class="snav__tab snav__tab--active" href="orazio_workshop_gallery.html">Workshop</a> <span class="snav__pill">Excluded from training</span>
+</div></nav>
+<!-- /global+section-nav -->
+
+
+
+
+
+
+
+
+    <header style="background:#fdfcfb;border-bottom:1px solid #e5dfd6;padding:48px 24px;">
+        <div style="max-width:1400px;margin:0 auto;">
+            <div style="text-align:center;">
+                <div style="font-size:11px;letter-spacing:0.3em;color:#8b7968;margin-bottom:16px;text-transform:uppercase;">Catalogue Raisonné</div>
+                <h1 style="font-size:32px;color:#2c1810;font-weight:300;margin-bottom:8px;letter-spacing:-0.02em;">Orazio Gentileschi</h1>
+                <div style="font-size:18px;color:#7c2d12;font-weight:400;letter-spacing:0.05em;">Workshop Attributions</div>
+                <div style="font-size:13px;color:#8b7968;margin-top:16px;">Compiled 2025-09-11T11:18:14.525947Z · Based on Bissell (1981) and Christiansen (2001)</div>
+            </div>
+        </div>
+    </header>
+    
+    <main style="max-width:1400px;margin:0 auto;padding:24px;">
+        
+    <section style="margin:64px auto;max-width:900px;text-align:center;">
+      <h2 style="font-size:11px;letter-spacing:0.3em;color:#8b7968;font-weight:400;margin-bottom:32px;text-transform:uppercase;font-family:'Courier New',monospace;">Workshop</h2>
+      
+      <div style="display:flex;justify-content:center;gap:80px;margin-bottom:48px;">
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Total Works</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">6</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Collections</div>
+          <div style="font-size:42px;color:#2c1810;font-weight:300;line-height:1;">5</div>
+        </div>
+        <div>
+          <div style="font-size:13px;color:#8b7968;margin-bottom:8px;letter-spacing:0.05em;">Date Range</div>
+          <div style="font-size:24px;color:#2c1810;font-weight:300;margin-top:12px;line-height:1;">1602–1636</div>
+          <div style="font-size:12px;color:#8b7968;margin-top:4px;">median: 1616.5</div>
+        </div>
+      </div>
+      
+      <div style="margin-top:48px;">
+        <h3 style="font-size:11px;color:#8b7968;margin-bottom:24px;letter-spacing:0.1em;font-weight:400;text-transform:uppercase;">Principal Collections</h3>
+        <table style="margin:0 auto;border-collapse:collapse;">
+          <tbody><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Royal Collection</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>2</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>Bavarian State Painting Collections</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/023868af2b254e7c69b24d55cfe49b85</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/572e807d796c76164d0c8b697ef4aff2</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr><tr><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:left;'>http://www.wikidata.org/.well-known/genid/d3f80b9afe0abd983890f19ab9cc5ba0</td><td style='padding:12px 24px;border-bottom:1px solid #e5dfd6;text-align:center;font-weight:300;'>1</td></tr></tbody>
+        </table>
+      </div>
+      
+      <div style="border-bottom:1px solid #e5dfd6;margin-top:64px;"></div>
+    </section>
+    
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:24px;margin-top:48px;">
+            
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_workshop/WRK_01_Death_of_Cleopatra_1613.jpg" alt="Death of Cleopatra"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Death of Cleopatra</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1613
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q19890804
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/d3f80b9afe0abd983890f19ab9cc5ba0
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Bissell 1981 notes workshop characteristics. Possibly collaborative with Artemisia c.1620.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> nude
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_workshop/WRK_02_Fall_of_the_Rebel_Angels_1602.jpg" alt="Fall of the Rebel Angels"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Fall of the Rebel Angels</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1602
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q61034687
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/023868af2b254e7c69b24d55cfe49b85
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Large commission possibly with assistants. Christiansen questions autograph status.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> man
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_workshop/WRK_03_Martha_reproving_her_sister_Ma_1620.jpg" alt="Martha reproving her sister Mary"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Martha reproving her sister Mary</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1620
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29838774
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Bavarian State Painting Collections
+                         / 12726
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Workshop production. Bissell 1981 notes execution problems inconsistent with Orazio.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_workshop/WRK_04_The_Holy_Family_with_the_Infan_1608.png" alt="The Holy Family with the Infant Saint John the Baptist"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">The Holy Family with the Infant Saint John the Baptist</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1608
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q29042578
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> http://www.wikidata.org/.well-known/genid/572e807d796c76164d0c8b697ef4aff2
+                        
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Quality suggests workshop execution. Christiansen 2001 notes departure from Orazio&#x27;s style.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> religious art
+                             <span style="margin:0 8px;color:#d4c5b9;">·</span> <span style="color:#8b7968;">Depicts:</span> woman
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_workshop/WRK_05_Two_Muses_1636.jpg" alt="Two Muses"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Two Muses</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027620
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408470
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Multiple versions exist. This version shows workshop characteristics per Bissell.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <article style="background:#fdfcfb;border:1px solid #e5dfd6;padding:0;overflow:hidden;transition:all 0.3s ease;">
+            <div style="position:relative;height:340px;background:#1a1614;display:flex;align-items:center;justify-content:center;">
+                <img src="orazio_workshop/WRK_06_Two_Muses_1636.jpg" alt="Two Muses"
+                     style="max-width:100%;max-height:100%;object-fit:contain;">
+            </div>
+            <div style="padding:24px;">
+                <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px;">
+                    <h3 style="font-size:16px;color:#2c1810;font-weight:400;margin:0;line-height:1.3;flex:1;margin-right:12px;">Two Muses</h3>
+                    <div style="flex-shrink:0;"><span style="display:inline-block;padding:3px 10px;border:1px solid #4a2c5e;font-size:10px;letter-spacing:0.08em;background:transparent;color:#4a2c5e;font-weight:400;text-transform:uppercase;font-family:'Courier New',monospace;">COLLABORATIVE</span></div>
+                </div>
+                <div style="font-size:13px;color:#6b5d54;line-height:1.8;">
+                    <div style="margin-bottom:8px;">
+                        <span style="color:#8b7968;">Date:</span> 1636
+                        <span style="margin:0 8px;color:#d4c5b9;">·</span>
+                        <span style="color:#8b7968;">QID:</span> Q28027625
+                    </div>
+                    <div style="margin-bottom:12px;">
+                        <span style="color:#8b7968;">Collection:</span> Royal Collection
+                         / RCIN 408471
+                    </div>
+                    <div style="border-top:1px solid #e5dfd6;padding-top:12px;margin-top:12px;">
+                        <div style="color:#8b7968;margin-bottom:4px;font-size:11px;letter-spacing:0.05em;text-transform:uppercase;">Attribution Notes</div>
+                        <div style="font-style:italic;line-height:1.6;font-size:12px;color:#6b5d54;">Multiple versions exist. This version shows workshop characteristics per Bissell.</div>
+                    </div>
+                    <div style="margin-top:12px;padding-top:12px;border-top:1px solid #e5dfd6;">
+                        <div style="font-size:11px;">
+                            <span style="color:#8b7968;">Genre:</span> —
+                            
+                            <br>
+                            <a href="#" style="color:#7c2d12;text-decoration:none;border-bottom:1px solid #d4c5b9;">License</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        </div>
+    </main>
+    
+    <footer style="background:#fdfcfb;border-top:1px solid #e5dfd6;margin-top:96px;padding:48px 24px;">
+        <div style="max-width:1200px;margin:0 auto;text-align:center;">
+            <div style="font-size:12px;color:#8b7968;line-height:1.8;">
+                <div style="margin-bottom:16px;">
+                    <strong>Attribution Sources:</strong> R. Ward Bissell (1981) · Keith Christiansen & Judith W. Mann (2001) · Recent Scholarship (2020-2025)
+                </div>
+                <div style="font-size:11px;color:#a09388;">
+                    Dataset compiled from Wikidata and Wikimedia Commons · OrazioPublicationDataset/2.0
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

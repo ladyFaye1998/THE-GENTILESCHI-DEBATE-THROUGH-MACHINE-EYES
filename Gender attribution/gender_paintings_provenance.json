@@ -1,0 +1,31 @@
+{
+  "built_utc": "2025-09-12T20:17:15Z",
+  "tool": "GenderPaintingsDB/3.1",
+  "description": "Balanced paintings database by artist gender with full Commons licensing",
+  "resume_mode": true,
+  "parameters": {
+    "target_per_gender": 400,
+    "max_per_artist_female": 10,
+    "max_per_artist_male": 6,
+    "balance_strategy": "cap_to_minority",
+    "female_artists_attempted": 1576,
+    "male_artists_attempted": 146
+  },
+  "results": {
+    "female": {
+      "total_paintings": 395,
+      "unique_artists": 87,
+      "unique_museums": 201,
+      "year_range": "1180-2000",
+      "with_commons_license": 394
+    },
+    "male": {
+      "total_paintings": 389,
+      "unique_artists": 106,
+      "unique_museums": 209,
+      "year_range": "1200-1972",
+      "with_commons_license": 389
+    }
+  },
+  "notes": "Gender-balanced collection with per-artist caps and pre-download balancing."
+}

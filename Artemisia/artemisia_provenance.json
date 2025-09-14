@@ -1,0 +1,23 @@
+{
+  "built_utc": "2025-09-11T11:06:10Z",
+  "artist_qid": "Q212657",
+  "tool": "ArtemisiaPublicationDataset/1.0",
+  "wdqs_query_file": "artemisia_wdqs_query.rq",
+  "num_candidates": 121,
+  "num_included_total": 116,
+  "num_unquestioned": 70,
+  "num_questioned": 35,
+  "num_workshop": 11,
+  "attribution_basis": {
+    "primary_source": "Ward Bissell (1999): Artemisia Gentileschi and the Authority of Art",
+    "secondary_source": "Metropolitan Museum (2001): Orazio and Artemisia Gentileschi",
+    "secure_works_in_bissell": 57,
+    "recent_exhibitions": [
+      "London National Gallery 2020",
+      "Naples 2022-23",
+      "Paris Jacquemart-Andr\u00e9 2025"
+    ],
+    "current_estimate": "Approximately 80 accepted works as of 2025"
+  },
+  "notes": "Comprehensive individual research for each painting. Only successful image downloads included. Three-category system: unquestioned (secure), questioned (disputed), workshop (collaborative). TASL captured from Commons extmetadata."
+}
